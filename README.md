@@ -48,4 +48,4 @@ Ikuti langkah-langkah berikut untuk memasang ekstensi ini di browser Chrome, Edg
 ## 📝 Catatan
 
 *   Pastikan file gambar yang direferensikan di `home.js` (misalnya `background/columbina.png`) tersedia di dalam folder `background/` dan terdaftar di `web_accessible_resources` dalam `manifest.json`.
-*   Ekstensi ini hanya bekerja pada domain `mentari.unpam.ac.id` dan `my.unpam.ac.id` sesuai konfigurasi manifest.
+*   Ekstensi ini hanya bekerja pada domain `mentari.unpam.ac.id` sesuai konfigurasi manifest.
