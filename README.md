@@ -2,14 +2,14 @@
 
 ![Preview Mentari Mod](background/tes.png)
 
-**Mentari Mod** adalah ekstensi Google Chrome sederhana yang dirancang untuk memodifikasi tampilan halaman login dan dashboard portal [Mentari UNPAM](https://mentari.unpam.ac.id/). Ekstensi ini mengganti background default dan melakukan penyesuaian gaya visual agar tampilan lebih segar dan menarik.
+**Mentari Mod** adalah ekstensi Google Chrome sederhana yang dirancang untuk memodifikasi tampilan halaman login portal [Mentari UNPAM](https://mentari.unpam.ac.id/). Ekstensi ini mengganti background default dan melakukan penyesuaian gaya visual agar tampilan lebih segar dan menarik.
 
 ## ✨ Fitur Utama
 
 *   **Custom Background**: Mengganti gambar latar belakang bawaan dengan gambar kustom yang lebih estetik.
 *   **Element Styling**: Menyesuaikan gaya elemen typography (H5) agar lebih rapi.
 *   **Image Replacement**: Mengganti atau menyembunyikan aset gambar tertentu (seperti `PersonLearn`) untuk tampilan yang lebih bersih.
-*   **Auto-Update**: Script berjalan secara otomatis menggunakan interval untuk memastikan elemen tetap terganti meskipun halaman direfresh atau dimuat ulang secara dinamis.
+*   **Auto-Update**: Script memantau perubahan DOM agar elemen tetap terganti meskipun halaman direfresh atau dimuat ulang secara dinamis.
 
 ## 💻 Teknologi yang Digunakan
 
@@ -47,3 +47,4 @@ Ikuti langkah-langkah berikut untuk memasang ekstensi ini di browser Chrome, Edg
 
 *   Pastikan file gambar yang direferensikan di `home.js` (misalnya `background/columbina.png`) tersedia di dalam folder `background/` dan terdaftar di `web_accessible_resources` dalam `manifest.json`.
 *   Ekstensi ini hanya bekerja pada domain `mentari.unpam.ac.id` sesuai konfigurasi manifest.
+*   Jika ingin background berganti otomatis, tambahkan file gambar ke `background/` lalu masukkan ke array `BACKGROUND_IMAGES` di `home.js`.
